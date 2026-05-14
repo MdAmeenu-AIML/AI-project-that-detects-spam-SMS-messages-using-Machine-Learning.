@@ -2,26 +2,8 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-# Sample dataset
-data = {
-    "message": [
-        "Win money now",
-        "Free iPhone offer",
-        "Hey how are you",
-        "Let's meet tomorrow",
-        "Claim your free prize"
-    ],
-    "label": [
-        "spam",
-        "spam",
-        "ham",
-        "ham",
-        "spam"
-    ]
-}
-
-# Create dataframe
-df = pd.DataFrame(data)
+# Load CSV dataset
+df = pd.read_csv("spam_data.csv")
 
 # Convert text into numbers
 vectorizer = CountVectorizer()
