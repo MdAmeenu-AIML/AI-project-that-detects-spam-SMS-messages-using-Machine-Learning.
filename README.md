@@ -84,8 +84,7 @@ The dataset contains thousands of real SMS messages labeled as:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/spam-message-classifier.git
-```
+git clone https://github.com/MdAmeenu-AIML/spam-message-classifier.git```
 
 ### Open Project Folder
 
